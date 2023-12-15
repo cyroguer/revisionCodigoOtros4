@@ -1,9 +1,9 @@
-package com.generation;
+package org.generation;
 
 import java.util.Scanner;//agregue esto
 
-public class Codigo4 {
-	public static void main(String[] args) { //agregue void
+public class RevisionCodigo {
+	public static void main(String[] args) {//agregue esto
 
 		Scanner s = new Scanner(System.in);//agregue system in
 
