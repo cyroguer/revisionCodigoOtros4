@@ -1,3 +1,6 @@
+//Este código en Java implementa un juego de "piedra, papel o tijeras" para dos jugadores //utilizando la clase Scanner para recoger las elecciones de los jugadores desde la entrada //estándar. Si ambos jugadores eligen lo mismo, se imprime "Empate". En caso contrario, se utiliza //un switch para determinar el ganador según las reglas clásicas del juego
+//
+
 package org.generation;
 
 import java.util.Scanner;//agregue esto
@@ -11,7 +14,7 @@ public class RevisionCodigo {
 		String j1 = s.nextLine();
 
 		System.out.print("Turno del jugador 2 (introduzca piedra, papel o tijeras): ");//modifique caption a jugador 2
-		Scanner s2 = new Scanner(System.in);//agregue system in
+		Scanner s2 = new Scanner(System.in);//agregue system in y s2 como variable del segundo jugador
 		String j2 = s2.nextLine();
 
 		if (j1.equals(j2)) { // agregue aprentesis y cambpie por equals, dado que == compara referencias de objetos, no el contenido real de las cadenas
